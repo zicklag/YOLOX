@@ -1,0 +1,14 @@
+[project]
+name = "YOLOX"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Zicklag <zicklag@katharostech.com>"]
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[tasks]
+
+[dependencies]
+python = ">=3.10.0,<3.11"
+pip = ">=24.0,<25"
+cmake = ">=3.29.6,<3.30"
